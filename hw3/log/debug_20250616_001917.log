@@ -1,0 +1,640 @@
+[DEBUG - Constructor] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 0, In_Q2: 0): []
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Constructor] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 0, In_Q2: 0): []
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x0]
+[DEBUG - Insert (To Q1 - New Object) VPN 0] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000000]
+  Q2 (Main FIFO, Size: 0, In_Q2: 0): []
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 1)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000000]
+  Q2 (Main FIFO, Size: 0, In_Q2: 0): []
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000000]
+  Q2 (Main FIFO, Size: 0, In_Q2: 0): []
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x0]
+[DEBUG - Insert (To Q1 - New Object) VPN 0] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000000]
+  Q2 (Main FIFO, Size: 0, In_Q2: 0): []
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 1)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000000]
+  Q2 (Main FIFO, Size: 0, In_Q2: 0): []
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000000]
+  Q2 (Main FIFO, Size: 0, In_Q2: 0): []
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Access VPN 0] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000000: 1}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000000]
+  Q2 (Main FIFO, Size: 0, In_Q2: 0): []
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 0 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 1, In_Q2: 1): [0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Access VPN 0] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000000: 1}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000000]
+  Q2 (Main FIFO, Size: 0, In_Q2: 0): []
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 0 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 1, In_Q2: 1): [0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x1]
+[DEBUG - Insert (To Q1 - New Object) VPN 1] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000001]
+  Q2 (Main FIFO, Size: 1, In_Q2: 1): [0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 2)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000001]
+  Q2 (Main FIFO, Size: 1, In_Q2: 1): [0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000001]
+  Q2 (Main FIFO, Size: 1, In_Q2: 1): [0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x1]
+[DEBUG - Insert (To Q1 - New Object) VPN 1] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000001]
+  Q2 (Main FIFO, Size: 1, In_Q2: 1): [0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 2)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000001]
+  Q2 (Main FIFO, Size: 1, In_Q2: 1): [0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000001]
+  Q2 (Main FIFO, Size: 1, In_Q2: 1): [0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Access VPN 1] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000001: 1, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000001]
+  Q2 (Main FIFO, Size: 1, In_Q2: 1): [0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 1 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 2, In_Q2: 2): [0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Access VPN 1] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000001: 1, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000001]
+  Q2 (Main FIFO, Size: 1, In_Q2: 1): [0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 1 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 2, In_Q2: 2): [0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x2]
+[DEBUG - Insert (To Q1 - New Object) VPN 2] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000002]
+  Q2 (Main FIFO, Size: 2, In_Q2: 2): [0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 3)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000002]
+  Q2 (Main FIFO, Size: 2, In_Q2: 2): [0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000002]
+  Q2 (Main FIFO, Size: 2, In_Q2: 2): [0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x2]
+[DEBUG - Insert (To Q1 - New Object) VPN 2] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000002]
+  Q2 (Main FIFO, Size: 2, In_Q2: 2): [0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 3)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000002]
+  Q2 (Main FIFO, Size: 2, In_Q2: 2): [0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000002]
+  Q2 (Main FIFO, Size: 2, In_Q2: 2): [0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Access VPN 2] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000002: 1, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000002]
+  Q2 (Main FIFO, Size: 2, In_Q2: 2): [0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 2 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 3, In_Q2: 3): [0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Access VPN 2] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000002: 1, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000002]
+  Q2 (Main FIFO, Size: 2, In_Q2: 2): [0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 2 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 3, In_Q2: 3): [0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x3]
+[DEBUG - Insert (To Q1 - New Object) VPN 3] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000003]
+  Q2 (Main FIFO, Size: 3, In_Q2: 3): [0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 4)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000003]
+  Q2 (Main FIFO, Size: 3, In_Q2: 3): [0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000003]
+  Q2 (Main FIFO, Size: 3, In_Q2: 3): [0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x3]
+[DEBUG - Insert (To Q1 - New Object) VPN 3] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000003]
+  Q2 (Main FIFO, Size: 3, In_Q2: 3): [0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 4)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000003]
+  Q2 (Main FIFO, Size: 3, In_Q2: 3): [0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000003]
+  Q2 (Main FIFO, Size: 3, In_Q2: 3): [0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Access VPN 3] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 1, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000003]
+  Q2 (Main FIFO, Size: 3, In_Q2: 3): [0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 3 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Access VPN 3] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000003: 1, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000003]
+  Q2 (Main FIFO, Size: 3, In_Q2: 3): [0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 3 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x4]
+[DEBUG - Insert (To Q1 - New Object) VPN 4] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000004]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 5)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000004]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000004]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x4]
+[DEBUG - Insert (To Q1 - New Object) VPN 4] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000004]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 5)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000004]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Processing Q1 tail: 0x4 (freq: 0) -> Evicted (Q1 to Q3 - freq 0 case)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000004]
+[DEBUG - Evict_if_needed End (Victim Found: 0x4)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000004]
+[DEBUG - Insert (To Q1 - New Object) VPN 0x5]
+[DEBUG - Insert (To Q1 - New Object) VPN 5] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000005, 0x00000004]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 6)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000005, 0x00000004]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000005, 0x00000004]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x5]
+[DEBUG - Insert (To Q1 - New Object) VPN 5] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000005]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000004]
+[DEBUG - Evict_if_needed Start (Current Cache Size: 5)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000005]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000004]
+[DEBUG - Processing Q1 tail: 0x5 (freq: 0) -> Evicted (Q1 to Q3 - freq 0 case)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000005]
+[DEBUG - Evict_if_needed End (Victim Found: 0x5)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000005]
+[DEBUG - Access VPN 5] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000005: 1, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000005, 0x00000004]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 5 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000004]
+  Q2 (Main FIFO, Size: 5, In_Q2: 5): [0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x6]
+[DEBUG - Insert (To Q1 - New Object) VPN 6] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000006, 0x00000004]
+  Q2 (Main FIFO, Size: 5, In_Q2: 5): [0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 7)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000006, 0x00000004]
+  Q2 (Main FIFO, Size: 5, In_Q2: 5): [0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000006, 0x00000004]
+  Q2 (Main FIFO, Size: 5, In_Q2: 5): [0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x6]
+[DEBUG - Insert (To Q1 - New Object) VPN 6] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000006: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000006]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000005]
+[DEBUG - Evict_if_needed Start (Current Cache Size: 5)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000006: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000006]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000005]
+[DEBUG - Processing Q1 tail: 0x6 (freq: 0) -> Evicted (Q1 to Q3 - freq 0 case)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000006]
+[DEBUG - Evict_if_needed End (Victim Found: 0x6)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000006]
+[DEBUG - Access VPN 6] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000006: 1, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000006, 0x00000004]
+  Q2 (Main FIFO, Size: 5, In_Q2: 5): [0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 6 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000004]
+  Q2 (Main FIFO, Size: 6, In_Q2: 6): [0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x7]
+[DEBUG - Insert (To Q1 - New Object) VPN 7] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000007, 0x00000004]
+  Q2 (Main FIFO, Size: 6, In_Q2: 6): [0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 8)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000007, 0x00000004]
+  Q2 (Main FIFO, Size: 6, In_Q2: 6): [0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000007, 0x00000004]
+  Q2 (Main FIFO, Size: 6, In_Q2: 6): [0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x7]
+[DEBUG - Insert (To Q1 - New Object) VPN 7] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000007: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000007]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000006]
+[DEBUG - Evict_if_needed Start (Current Cache Size: 5)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000007: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000007]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000006]
+[DEBUG - Processing Q1 tail: 0x7 (freq: 0) -> Evicted (Q1 to Q3 - freq 0 case)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000007]
+[DEBUG - Evict_if_needed End (Victim Found: 0x7)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000007]
+[DEBUG - Access VPN 7] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000007: 1, 0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000007, 0x00000004]
+  Q2 (Main FIFO, Size: 6, In_Q2: 6): [0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Lazy Promotion: VPN 7 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000004]
+  Q2 (Main FIFO, Size: 7, In_Q2: 7): [0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x8]
+[DEBUG - Insert (To Q1 - New Object) VPN 8] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000008, 0x00000004]
+  Q2 (Main FIFO, Size: 7, In_Q2: 7): [0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 9)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000008, 0x00000004]
+  Q2 (Main FIFO, Size: 7, In_Q2: 7): [0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed End (Capacity satisfied, no victim)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000008, 0x00000004]
+  Q2 (Main FIFO, Size: 7, In_Q2: 7): [0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Insert (To Q1 - New Object) VPN 0x8]
+[DEBUG - Insert (To Q1 - New Object) VPN 8] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000008: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000008]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000007]
+[DEBUG - Evict_if_needed Start (Current Cache Size: 5)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000008: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000008]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000007]
+[DEBUG - Processing Q1 tail: 0x8 (freq: 0) -> Evicted (Q1 to Q3 - freq 0 case)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000008]
+[DEBUG - Evict_if_needed End (Victim Found: 0x8)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000008]
+[DEBUG - Insert (To Q1 - New Object) VPN 0x9]
+[DEBUG - Insert (To Q1 - New Object) VPN 9] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000009: 0, 0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 3, In_Q1: 3): [0x00000009, 0x00000008, 0x00000004]
+  Q2 (Main FIFO, Size: 7, In_Q2: 7): [0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Evict_if_needed Start (Current Cache Size: 10)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000009: 0, 0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000004: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 3, In_Q1: 3): [0x00000009, 0x00000008, 0x00000004]
+  Q2 (Main FIFO, Size: 7, In_Q2: 7): [0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 0, In_Q3: 0): []
+[DEBUG - Processing Q1 tail: 0x4 (freq: 0) -> Evicted (Q1 to Q3 - freq 0 case)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000009: 0, 0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000009, 0x00000008]
+  Q2 (Main FIFO, Size: 7, In_Q2: 7): [0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000004]
+[DEBUG - Evict_if_needed End (Victim Found: 0x4)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000009: 0, 0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000009, 0x00000008]
+  Q2 (Main FIFO, Size: 7, In_Q2: 7): [0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000004]
+[DEBUG - Insert (To Q1 - New Object) VPN 0x9]
+[DEBUG - Insert (To Q1 - New Object) VPN 9] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000009: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000009]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000008]
+[DEBUG - Evict_if_needed Start (Current Cache Size: 5)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000009: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000009]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000008]
+[DEBUG - Processing Q1 tail: 0x9 (freq: 0) -> Evicted (Q1 to Q3 - freq 0 case)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000009]
+[DEBUG - Evict_if_needed End (Victim Found: 0x9)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000009]
+[DEBUG - Access VPN 9] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000009: 1, 0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x00000009, 0x00000008]
+  Q2 (Main FIFO, Size: 7, In_Q2: 7): [0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000004]
+[DEBUG - Lazy Promotion: VPN 9 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x00000009: 0, 0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x00000008]
+  Q2 (Main FIFO, Size: 8, In_Q2: 8): [0x00000009, 0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000004]
+[DEBUG - Insert (To Q1 - New Object) VPN 0xA]
+[DEBUG - Insert (To Q1 - New Object) VPN 10] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x0000000A: 0, 0x00000009: 0, 0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x0000000A, 0x00000008]
+  Q2 (Main FIFO, Size: 8, In_Q2: 8): [0x00000009, 0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000004]
+[DEBUG - Evict_if_needed Start (Current Cache Size: 10)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x0000000A: 0, 0x00000009: 0, 0x00000008: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 2, In_Q1: 2): [0x0000000A, 0x00000008]
+  Q2 (Main FIFO, Size: 8, In_Q2: 8): [0x00000009, 0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000004]
+[DEBUG - Processing Q1 tail: 0x8 (freq: 0) -> Evicted (Q1 to Q3 - freq 0 case)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x0000000A: 0, 0x00000009: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x0000000A]
+  Q2 (Main FIFO, Size: 8, In_Q2: 8): [0x00000009, 0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000008]
+[DEBUG - Evict_if_needed End (Victim Found: 0x8)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x0000000A: 0, 0x00000009: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x0000000A]
+  Q2 (Main FIFO, Size: 8, In_Q2: 8): [0x00000009, 0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000008]
+[DEBUG - Insert (To Q1 - New Object) VPN 0xA]
+[DEBUG - Insert (To Q1 - New Object) VPN 10] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x0000000A: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x0000000A]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000009]
+[DEBUG - Evict_if_needed Start (Current Cache Size: 5)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x0000000A: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x0000000A]
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000009]
+[DEBUG - Processing Q1 tail: 0x10 (freq: 0) -> Evicted (Q1 to Q3 - freq 0 case)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x0000000A]
+[DEBUG - Evict_if_needed End (Victim Found: 0x10)] S3FIFO State:
+  Capacities: Q1=1, Q2=4, Q3=1, Total=5
+  Freq Map: {0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 4, In_Q2: 4): [0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x0000000A]
+[DEBUG - Access VPN 10] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x0000000A: 1, 0x00000009: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 1, In_Q1: 1): [0x0000000A]
+  Q2 (Main FIFO, Size: 8, In_Q2: 8): [0x00000009, 0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000008]
+[DEBUG - Lazy Promotion: VPN 10 (Q1 -> Q2)] S3FIFO State:
+  Capacities: Q1=1, Q2=9, Q3=1, Total=10
+  Freq Map: {0x0000000A: 0, 0x00000009: 0, 0x00000007: 0, 0x00000006: 0, 0x00000005: 0, 0x00000003: 0, 0x00000002: 0, 0x00000001: 0, 0x00000000: 0}
+  Q1 (Small FIFO, Size: 0, In_Q1: 0): []
+  Q2 (Main FIFO, Size: 9, In_Q2: 9): [0x0000000A, 0x00000009, 0x00000007, 0x00000006, 0x00000005, 0x00000003, 0x00000002, 0x00000001, 0x00000000]
+  Q3 (Ghost FIFO, Size: 1, In_Q3: 1): [0x00000008]
